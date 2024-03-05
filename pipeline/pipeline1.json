@@ -16,11 +16,14 @@
 				"userProperties": [],
 				"typeProperties": {
 					"source": {
-						"type": "ExcelSource",
+						"type": "DelimitedTextSource",
 						"storeSettings": {
 							"type": "AzureBlobFSReadSettings",
 							"recursive": true,
 							"enablePartitionDiscovery": false
+						},
+						"formatSettings": {
+							"type": "DelimitedTextReadSettings"
 						}
 					},
 					"sink": {
@@ -46,7 +49,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DS_Excel",
+						"referenceName": "DelimitedText1",
 						"type": "DatasetReference"
 					}
 				],
@@ -78,11 +81,14 @@
 				"userProperties": [],
 				"typeProperties": {
 					"source": {
-						"type": "ExcelSource",
+						"type": "DelimitedTextSource",
 						"storeSettings": {
 							"type": "AzureBlobFSReadSettings",
 							"recursive": true,
 							"enablePartitionDiscovery": false
+						},
+						"formatSettings": {
+							"type": "DelimitedTextReadSettings"
 						}
 					},
 					"sink": {
@@ -108,7 +114,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DS_Excel2",
+						"referenceName": "DelimitedText2",
 						"type": "DatasetReference"
 					}
 				],
