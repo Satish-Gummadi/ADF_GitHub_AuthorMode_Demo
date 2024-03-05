@@ -1,0 +1,9 @@
+{
+	"name": "satadf124",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4cfdc629-b063-45d3-8868-0de20dbccde8",
+		"tenantId": "4b345677-f3d5-44e5-b811-668c6cd49189"
+	}
+}
