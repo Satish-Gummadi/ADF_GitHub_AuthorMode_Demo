@@ -1,0 +1,12 @@
+{
+	"name": "LS_Source_ADLS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://satstore124.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEQyQkVFOEE4LTY5ODctNDI4NC1BRDMwLTBDQ0I5OTBGRTVEMV8zYjZmYTY5MS02NDdiLTRmM2MtOTNkOS1kNDg4NzQxYTU4M2YiDQp9"
+		}
+	}
+}
